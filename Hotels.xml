@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>Grand Hyatt</Name>
+    <Phone>212-883-1234</Phone>
+    <Address NearstAirport="JFK International">
+      <Number>109</Number>
+      <Street>E 42nd St</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10017</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Fairmont San Francisco</Name>
+    <Phone>415-772-5000</Phone>
+    <Address NearstAirport="San Francisco International">
+      <Number>950</Number>
+      <Street>Mason St</Street>
+      <City>San Francisco</City>
+      <State>CA</State>
+      <Zip>94108</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Four Seasons Orlando</Name>
+    <Phone>407-313-7777</Phone>
+    <Address NearstAirport="Orlando International">
+      <Number>10100</Number>
+      <Street>Dream Tree Blvd</Street>
+      <City>Lake Buena Vista</City>
+      <State>FL</State>
+      <Zip>32836</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Broadmoor</Name>
+    <Phone>719-634-7711</Phone>
+    <Address NearstAirport="Colorado Springs Airport">
+      <Number>1</Number>
+      <Street>Lake Avenue</Street>
+      <City>Colorado Springs</City>
+      <State>CO</State>
+      <Zip>80906</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.9">
+    <Name>Hotel Nikko Chicago</Name>
+    <Phone>312-236-0123</Phone>
+    <Phone>888-123-4567</Phone>
+    <Address NearstAirport="O'Hare International">
+      <Number>200</Number>
+      <Street>North State Street</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60601</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>Taj Mahal Palace</Name>
+    <Phone>22-6665-3366</Phone>
+    <Address NearstAirport="Chhatrapati Shivaji International">
+      <Number>1</Number>
+      <Street>Apollo Bunder</Street>
+      <City>Mumbai</City>
+      <State>Maharashtra</State>
+      <Zip>400001</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>ITC Maurya</Name>
+    <Phone>11-2611-2233</Phone>
+    <Phone>11-2611-1199</Phone>
+    <Address NearstAirport="Indira Gandhi International">
+      <Number>Sardar Patel Marg</Number>
+      <Street>Chanakyapuri</Street>
+      <City>New Delhi</City>
+      <State>Delhi</State>
+      <Zip>110021</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Park Hyatt Sydney</Name>
+    <Phone>2-9256-1234</Phone>
+    <Address NearstAirport="Sydney Kingsford Smith">
+      <Number>7</Number>
+      <Street>Hickson Rd</Street>
+      <City>Sydney</City>
+      <State>NSW</State>
+      <Zip>2000</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Savoy</Name>
+    <Phone>20-7836-4343</Phone>
+    <Address NearstAirport="Heathrow Airport">
+      <Number>Strand</Number>
+      <Street>Westminster</Street>
+      <City>London</City>
+      <State>England</State>
+      <Zip>WC2R 0EZ</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>

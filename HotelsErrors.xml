@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- hotel for reference -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearstAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!--Missing required attribute 'NearstAirport' -->
+  <Hotel Rating="4.6">
+    <Name>Grand Hyatt</Name>
+    <Phone>212-883-1234</Phone>
+    <Address> <!-- NearstAirport attribute missing -->
+      <Number>109</Number>
+      <Street>E 42nd St</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10017</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Missing <Phone> element -->
+  <Hotel>
+    <Name>Fairmont San Francisco</Name>
+    <Address NearstAirport="San Francisco International">
+      <Number>950</Number>
+      <Street>Mason St</Street>
+      <City>San Francisco</City>
+      <State>CA</State>
+      <Zip>94108</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- <Address> has no closing tag -->
+  <Hotel Rating="4.4">
+    <Name>Four Seasons Orlando</Name>
+    <Phone>407-313-7777</Phone>
+    <Address NearstAirport="Orlando International">
+      <Number>10100</Number>
+      <Street>Dream Tree Blvd</Street>
+      <City>Lake Buena Vista</City>
+      <State>FL</State>
+      <Zip>32836</Zip>
+    <!-- Missing </Address> tag -->
+  </Hotel>
+
+  <!-- Two <Name> elements -->
+  <Hotel>
+    <Name>The Broadmoor</Name>
+    <Name>Duplicate Name</Name>
+    <Phone>719-634-7711</Phone>
+    <Address NearstAirport="Colorado Springs Airport">
+      <Number>1</Number>
+      <Street>Lake Avenue</Street>
+      <City>Colorado Springs</City>
+      <State>CO</State>
+      <Zip>80906</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- valid entries optional -->
+  <Hotel Rating="4.5">
+    <Name>Taj Mahal Palace</Name>
+    <Phone>22-6665-3366</Phone>
+    <Address NearstAirport="Chhatrapati Shivaji International">
+      <Number>1</Number>
+      <Street>Apollo Bunder</Street>
+      <City>Mumbai</City>
+      <State>Maharashtra</State>
+      <Zip>400001</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
