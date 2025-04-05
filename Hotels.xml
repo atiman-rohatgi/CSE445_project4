@@ -6,7 +6,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E. 7th St</Street>
       <City>Tempe</City>
@@ -18,7 +18,7 @@
   <Hotel Rating="4.6">
     <Name>Grand Hyatt</Name>
     <Phone>212-883-1234</Phone>
-    <Address NearestAirport="JFK International">
+    <Address NearstAirport="JFK International">
       <Number>109</Number>
       <Street>E 42nd St</Street>
       <City>New York</City>
@@ -30,7 +30,7 @@
   <Hotel>
     <Name>Fairmont San Francisco</Name>
     <Phone>415-772-5000</Phone>
-    <Address NearestAirport="San Francisco International">
+    <Address NearstAirport="San Francisco International">
       <Number>950</Number>
       <Street>Mason St</Street>
       <City>San Francisco</City>
@@ -42,7 +42,7 @@
   <Hotel Rating="4.4">
     <Name>Four Seasons Orlando</Name>
     <Phone>407-313-7777</Phone>
-    <Address NearestAirport="Orlando International">
+    <Address NearstAirport="Orlando International">
       <Number>10100</Number>
       <Street>Dream Tree Blvd</Street>
       <City>Lake Buena Vista</City>
@@ -54,7 +54,7 @@
   <Hotel>
     <Name>The Broadmoor</Name>
     <Phone>719-634-7711</Phone>
-    <Address NearestAirport="Colorado Springs Airport">
+    <Address NearstAirport="Colorado Springs Airport">
       <Number>1</Number>
       <Street>Lake Avenue</Street>
       <City>Colorado Springs</City>
@@ -67,7 +67,7 @@
     <Name>Hotel Nikko Chicago</Name>
     <Phone>312-236-0123</Phone>
     <Phone>888-123-4567</Phone>
-    <Address NearestAirport="O'Hare International">
+    <Address NearstAirport="O'Hare International">
       <Number>200</Number>
       <Street>North State Street</Street>
       <City>Chicago</City>
@@ -79,7 +79,7 @@
   <Hotel Rating="4.5">
     <Name>Taj Mahal Palace</Name>
     <Phone>22-6665-3366</Phone>
-    <Address NearestAirport="Chhatrapati Shivaji International">
+    <Address NearstAirport="Chhatrapati Shivaji International">
       <Number>1</Number>
       <Street>Apollo Bunder</Street>
       <City>Mumbai</City>
@@ -92,7 +92,7 @@
     <Name>ITC Maurya</Name>
     <Phone>11-2611-2233</Phone>
     <Phone>11-2611-1199</Phone>
-    <Address NearestAirport="Indira Gandhi International">
+    <Address NearstAirport="Indira Gandhi International">
       <Number>Sardar Patel Marg</Number>
       <Street>Chanakyapuri</Street>
       <City>New Delhi</City>
@@ -104,7 +104,7 @@
   <Hotel Rating="4.7">
     <Name>Park Hyatt Sydney</Name>
     <Phone>2-9256-1234</Phone>
-    <Address NearestAirport="Sydney Kingsford Smith">
+    <Address NearstAirport="Sydney Kingsford Smith">
       <Number>7</Number>
       <Street>Hickson Rd</Street>
       <City>Sydney</City>
@@ -116,7 +116,7 @@
   <Hotel>
     <Name>The Savoy</Name>
     <Phone>20-7836-4343</Phone>
-    <Address NearestAirport="Heathrow Airport">
+    <Address NearstAirport="Heathrow Airport">
       <Number>Strand</Number>
       <Street>Westminster</Street>
       <City>London</City>
