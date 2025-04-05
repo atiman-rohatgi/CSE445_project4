@@ -1,84 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
-  <!-- hotel for reference -->
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel>
+  <!-- Hotel 1: Valid entry -->
   <Hotel Rating="4.2">
-    <Name>Westin</Name>
+    <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Harbor">
+    <Address NearestAirport="Sky Habor">
       <Number>11</Number>
-      <Street>E. 7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-  <!--Missing required attribute 'NearstAirport' -->
-  <Hotel Rating="4.6">
-    <Name>Grand Hyatt</Name>
-    <Phone>212-883-1234</Phone>
-    <Address> <!-- NearstAirport attribute missing -->
-      <Number>109</Number>
-      <Street>E 42nd St</Street>
-      <City>New York</City>
-      <State>NY</State>
-      <Zip>10017</Zip>
-    </Address>
-  </Hotel>
-
-  <!-- Missing <Phone> element -->
-  <Hotel>
-    <Name>Fairmont San Francisco</Name>
-    <Address NearstAirport="San Francisco International">
-      <Number>950</Number>
-      <Street>Mason St</Street>
-      <City>San Francisco</City>
-      <State>CA</State>
-      <Zip>94108</Zip>
-    </Address>
-  </Hotel>
-
-  <!-- <Address> has no closing tag -->
-  <Hotel Rating="4.4">
-    <Name>Four Seasons Orlando</Name>
-    <Phone>407-313-7777</Phone>
-    <Address NearstAirport="Orlando International">
-      <Number>10100</Number>
-      <Street>Dream Tree Blvd</Street>
-      <City>Lake Buena Vista</City>
-      <State>FL</State>
-      <Zip>32836</Zip>
-    <!-- Missing </Address> tag -->
-  </Hotel>
-
-  <!-- Two <Name> elements -->
-  <Hotel>
-    <Name>The Broadmoor</Name>
-    <Name>Duplicate Name</Name>
-    <Phone>719-634-7711</Phone>
-    <Address NearstAirport="Colorado Springs Airport">
-      <Number>1</Number>
-      <Street>Lake Avenue</Street>
-      <City>Colorado Springs</City>
-      <State>CO</State>
-      <Zip>80906</Zip>
-    </Address>
-  </Hotel>
-
-  <!-- valid entries optional -->
+  
+  <!-- Hotel 2: Missing required attribute (NearestAirport removed from Address) -->
   <Hotel Rating="4.5">
-    <Name>Taj Mahal Palace</Name>
-    <Phone>22-6665-3366</Phone>
-    <Address NearstAirport="Chhatrapati Shivaji International">
-      <Number>1</Number>
-      <Street>Apollo Bunder</Street>
-      <City>Mumbai</City>
-      <State>Maharashtra</State>
-      <Zip>400001</Zip>
+    <Name>Marriott Marquis San Diego</Name>
+    <Phone>619-292-2000</Phone>
+    <Address>
+      <Number>333</Number>
+      <Street>Pacific Highway</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92101</Zip>
     </Address>
   </Hotel>
-
+  
+  <!-- Hotel 3: Missing Phone element -->
+  <Hotel>
+    <Name>Hilton Paris Opera</Name>
+    <!-- No Phone element provided -->
+    <Address NearestAirport="Charles de Gaulle">
+      <Number>108</Number>
+      <Street>Rue Auber</Street>
+      <City>Paris</City>
+      <State>Ile-de-France</State>
+      <Zip>75009</Zip>
+    </Address>
+  </Hotel>
+  
+  <!-- Hotel 4: Address element missing closing tag -->
+  <Hotel Rating="4.8">
+    <Name>InterContinental London Park Lane</Name>
+    <Phone>+44 20 7736 1000</Phone>
+    <Address NearestAirport="Heathrow">
+      <Number>200</Number>
+      <Street>Park Lane</Street>
+      <City>London</City>
+      <State>England</State>
+      <Zip>W1J 7QY</Zip>
+    <!-- Missing </Address> tag here -->
+  </Hotel>
+  
+  <!-- Hotel 5: Two Name elements provided -->
+  <Hotel Rating="4.7">
+    <Name>The Peninsula Hong Kong</Name>
+    <Name>Peninsula Hong Kong Duplicate</Name>
+    <Phone>+852 2233 8888</Phone>
+    <Address NearestAirport="Hong Kong International Airport">
+      <Number>8</Number>
+      <Street>City Road Central</Street>
+      <City>Hong Kong</City>
+      <State>Kowloon</State>
+      <Zip>00000</Zip>
+    </Address>
+  </Hotel>
 </Hotel>
