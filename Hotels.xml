@@ -1,128 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
-
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
   <Hotel Rating="4.2">
-    <Name>Westin</Name>
+    <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Habor">
+    <Address NearestAirport="Sky Habor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-  </Hotel>  
-
-  <Hotel Rating="4.6">
-    <Name>Grand Hyatt</Name>
-    <Phone>212-883-1234</Phone>
-    <Address NearstAirport="JFK International">
-      <Number>109</Number>
-      <Street>E 42nd St</Street>
-      <City>New York</City>
-      <State>NY</State>
-      <Zip>10017</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Fairmont San Francisco</Name>
-    <Phone>415-772-5000</Phone>
-    <Address NearstAirport="San Francisco International">
-      <Number>950</Number>
-      <Street>Mason St</Street>
-      <City>San Francisco</City>
-      <State>CA</State>
-      <Zip>94108</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.4">
-    <Name>Four Seasons Orlando</Name>
-    <Phone>407-313-7777</Phone>
-    <Address NearstAirport="Orlando International">
-      <Number>10100</Number>
-      <Street>Dream Tree Blvd</Street>
-      <City>Lake Buena Vista</City>
-      <State>FL</State>
-      <Zip>32836</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>The Broadmoor</Name>
-    <Phone>719-634-7711</Phone>
-    <Address NearstAirport="Colorado Springs Airport">
-      <Number>1</Number>
-      <Street>Lake Avenue</Street>
-      <City>Colorado Springs</City>
-      <State>CO</State>
-      <Zip>80906</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="3.9">
-    <Name>Hotel Nikko Chicago</Name>
-    <Phone>312-236-0123</Phone>
-    <Phone>888-123-4567</Phone>
-    <Address NearstAirport="O'Hare International">
-      <Number>200</Number>
-      <Street>North State Street</Street>
-      <City>Chicago</City>
-      <State>IL</State>
-      <Zip>60601</Zip>
-    </Address>
   </Hotel>
 
   <Hotel Rating="4.5">
-    <Name>Taj Mahal Palace</Name>
-    <Phone>22-6665-3366</Phone>
-    <Address NearstAirport="Chhatrapati Shivaji International">
-      <Number>1</Number>
-      <Street>Apollo Bunder</Street>
-      <City>Mumbai</City>
-      <State>Maharashtra</State>
-      <Zip>400001</Zip>
+    <Name>Marriott Marquis San Diego</Name>
+    <Phone>619-292-2000</Phone>
+    <Address NearestAirport="San Diego International Airport">
+      <Number>333</Number>
+      <Street>Pacific Highway</Street>
+      <City>San Diego</City>
+      <State>CA</State>
+      <Zip>92101</Zip>
     </Address>
   </Hotel>
 
   <Hotel>
-    <Name>ITC Maurya</Name>
-    <Phone>11-2611-2233</Phone>
-    <Phone>11-2611-1199</Phone>
-    <Address NearstAirport="Indira Gandhi International">
-      <Number>Sardar Patel Marg</Number>
-      <Street>Chanakyapuri</Street>
-      <City>New Delhi</City>
-      <State>Delhi</State>
-      <Zip>110021</Zip>
+    <Name>Hilton Paris Opera</Name>
+    <Phone>+33 1 42 98 80 00</Phone>
+    <Address NearestAirport="Charles de Gaulle">
+      <Number>108</Number>
+      <Street>Rue Auber</Street>
+      <City>Paris</City>
+      <State>Ile-de-France</State>
+      <Zip>75009</Zip>
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.7">
-    <Name>Park Hyatt Sydney</Name>
-    <Phone>2-9256-1234</Phone>
-    <Address NearstAirport="Sydney Kingsford Smith">
-      <Number>7</Number>
-      <Street>Hickson Rd</Street>
-      <City>Sydney</City>
-      <State>NSW</State>
-      <Zip>2000</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>The Savoy</Name>
-    <Phone>20-7836-4343</Phone>
-    <Address NearstAirport="Heathrow Airport">
-      <Number>Strand</Number>
-      <Street>Westminster</Street>
+  <Hotel Rating="4.8">
+    <Name>InterContinental London Park Lane</Name>
+    <Phone>+44 20 7736 1000</Phone>
+    <Address NearestAirport="Heathrow">
+      <Number>200</Number>
+      <Street>Park Lane</Street>
       <City>London</City>
       <State>England</State>
-      <Zip>WC2R 0EZ</Zip>
+      <Zip>W1J 7QY</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel Rating="4.7">
+    <Name>The Peninsula Hong Kong</Name>
+    <Phone>+852 2233 8888</Phone>
+    <Address NearestAirport="Hong Kong International Airport">
+      <Number>8</Number>
+      <Street>City Road Central</Street>
+      <City>Hong Kong</City>
+      <State>Kowloon</State>
+      <Zip>00000</Zip>
     </Address>
   </Hotel>
 
+  <Hotel>
+    <Name>Ritz-Carlton Tokyo</Name>
+    <Phone>+81 3-3423-8000</Phone>
+    <Phone>+81 3-3423-8001</Phone>
+    <Address NearestAirport="Narita International Airport">
+      <Number>1</Number>
+      <Street>Tokyo Tower</Street>
+      <City>Tokyo</City>
+      <State>Tokyo</State>
+      <Zip>105-0011</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Mandarin Oriental, Bangkok</Name>
+    <Phone>+66 2 659 9000</Phone>
+    <Address NearestAirport="Suvarnabhumi Airport">
+      <Number>48</Number>
+      <Street>Convent Road</Street>
+      <City>Bangkok</City>
+      <State>Bangkok</State>
+      <Zip>10120</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>Hotel Sacher Vienna</Name>
+    <Phone>+43 1 71338</Phone>
+    <Address NearestAirport="Vienna International Airport">
+      <Number>4</Number>
+      <Street>Philharmonikerstrasse</Street>
+      <City>Vienna</City>
+      <State>Vienna</State>
+      <Zip>1010</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>Burj Al Arab</Name>
+    <Phone>+971 4 301 7777</Phone>
+    <Address NearestAirport="Dubai International Airport">
+      <Number>1</Number>
+      <Street>Jumeirah St</Street>
+      <City>Dubai</City>
+      <State>Dubai</State>
+      <Zip>00000</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>The Oberoi Udaivilas</Name>
+    <Phone>+91 7461 231234</Phone>
+    <Address NearestAirport="Sardar Vallabhbhai Patel International Airport">
+      <Number>1</Number>
+      <Street>Lake Pichola Road</Street>
+      <City>Udaipur</City>
+      <State>Rajasthan</State>
+      <Zip>313001</Zip>
+    </Address>
+  </Hotel>
 </Hotels>
