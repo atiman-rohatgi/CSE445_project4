@@ -1,124 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Hotel from the diagram -->
   <Hotel Rating="4.2">
-    <Name>Westin Tempe</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Habor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
+    <Name>Marina Bay Sands</Name>
+    <Phone>+65 6688 8868</Phone>
+    <Phone>+65 6688 6888</Phone>
+    <Address NearstAirport="Changi Airport">
+      <Number>10</Number>
+      <Street>Bayfront Ave</Street>
+      <City>Singapore</City>
+      <State>Central</State>
+      <Zip>018956</Zip>
     </Address>
   </Hotel>
 
   <Hotel Rating="4.5">
-    <Name>Marriott Marquis San Diego</Name>
-    <Phone>619-292-2000</Phone>
-    <Address NearstAirport="San Diego International Airport">
-      <Number>333</Number>
-      <Street>Pacific Highway</Street>
-      <City>San Diego</City>
-      <State>CA</State>
-      <Zip>92101</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel>
-    <Name>Hilton Paris Opera</Name>
-    <Phone>+33 1 42 98 80 00</Phone>
-    <Address NearstAirport="Charles de Gaulle">
-      <Number>108</Number>
-      <Street>Rue Auber</Street>
-      <City>Paris</City>
-      <State>Ile-de-France</State>
-      <Zip>75009</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.8">
-    <Name>InterContinental London Park Lane</Name>
-    <Phone>+44 20 7736 1000</Phone>
-    <Address NearstAirport="Heathrow">
-      <Number>200</Number>
-      <Street>Park Lane</Street>
+    <Name>The Langham</Name>
+    <Phone>+44 20 7636 1000</Phone>
+    <Address NearstAirport="London Heathrow">
+      <Number>1</Number>
+      <Street>Portland Pl</Street>
       <City>London</City>
       <State>England</State>
-      <Zip>W1J 7QY</Zip>
-    </Address>
-  </Hotel>
-  
-  <Hotel Rating="4.7">
-    <Name>The Peninsula Hong Kong</Name>
-    <Phone>+852 2233 8888</Phone>
-    <Address NearstAirport="Hong Kong International Airport">
-      <Number>8</Number>
-      <Street>City Road Central</Street>
-      <City>Hong Kong</City>
-      <State>Kowloon</State>
-      <Zip>00000</Zip>
+      <Zip>W1B 1JA</Zip>
     </Address>
   </Hotel>
 
   <Hotel>
-    <Name>Ritz-Carlton Tokyo</Name>
-    <Phone>+81 3-3423-8000</Phone>
-    <Phone>+81 3-3423-8001</Phone>
-    <Address NearstAirport="Narita International Airport">
-      <Number>1</Number>
-      <Street>Tokyo Tower</Street>
+    <Name>Four Seasons Paris</Name>
+    <Phone>+33 1 49 52 70 00</Phone>
+    <Phone>+33 1 49 52 71 00</Phone>
+    <Address NearstAirport="Charles de Gaulle">
+      <Number>31</Number>
+      <Street>Avenue George V</Street>
+      <City>Paris</City>
+      <State>Ile-de-France</State>
+      <Zip>75008</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>Park Hyatt Tokyo</Name>
+    <Phone>+81 3-5322-1234</Phone>
+    <Address NearstAirport="Narita Airport">
+      <Number>3-7-1</Number>
+      <Street>Nishi-Shinjuku</Street>
       <City>Tokyo</City>
       <State>Tokyo</State>
-      <Zip>105-0011</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.3">
-    <Name>Mandarin Oriental, Bangkok</Name>
-    <Phone>+66 2 659 9000</Phone>
-    <Address NearstAirport="Suvarnabhumi Airport">
-      <Number>48</Number>
-      <Street>Convent Road</Street>
-      <City>Bangkok</City>
-      <State>Bangkok</State>
-      <Zip>10120</Zip>
-    </Address>
-  </Hotel>
-
-  <Hotel Rating="4.6">
-    <Name>Hotel Sacher Vienna</Name>
-    <Phone>+43 1 71338</Phone>
-    <Address NearstAirport="Vienna International Airport">
-      <Number>4</Number>
-      <Street>Philharmonikerstrasse</Street>
-      <City>Vienna</City>
-      <State>Vienna</State>
-      <Zip>1010</Zip>
+      <Zip>163-1055</Zip>
     </Address>
   </Hotel>
 
   <Hotel>
+    <Name>Shangri-La Sydney</Name>
+    <Phone>+61 2 9250 6000</Phone>
+    <Address NearstAirport="Sydney Kingsford Smith">
+      <Number>176</Number>
+      <Street>Cumberland St</Street>
+      <City>Sydney</City>
+      <State>NSW</State>
+      <Zip>2000</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
     <Name>Burj Al Arab</Name>
     <Phone>+971 4 301 7777</Phone>
-    <Address NearstAirport="Dubai International Airport">
+    <Phone>+971 4 301 7000</Phone>
+    <Address NearstAirport="Dubai International">
       <Number>1</Number>
-      <Street>Jumeirah St</Street>
+      <Street>Jumeirah Street</Street>
       <City>Dubai</City>
       <State>Dubai</State>
       <Zip>00000</Zip>
     </Address>
   </Hotel>
 
+  <Hotel>
+    <Name>Hotel Alfonso XIII</Name>
+    <Phone>+34 954 91 70 00</Phone>
+    <Address NearstAirport="Seville Airport">
+      <Number>2</Number>
+      <Street>San Fernando</Street>
+      <City>Seville</City>
+      <State>Andalusia</State>
+      <Zip>41004</Zip>
+    </Address>
+  </Hotel>
+
   <Hotel Rating="4.1">
     <Name>The Oberoi Udaivilas</Name>
-    <Phone>+91 7461 231234</Phone>
-    <Address NearstAirport="Sardar Vallabhbhai Patel International Airport">
-      <Number>1</Number>
-      <Street>Lake Pichola Road</Street>
+    <Phone>+91 294 2433300</Phone>
+    <Address NearstAirport="Maharana Pratap Airport">
+      <Number>Haridasji Ki Magri</Number>
+      <Street>Lake Pichola</Street>
       <City>Udaipur</City>
       <State>Rajasthan</State>
       <Zip>313001</Zip>
     </Address>
   </Hotel>
+
+  <Hotel>
+    <Name>Hotel Hassler</Name>
+    <Phone>+39 06 699340</Phone>
+    <Address NearstAirport="Rome Fiumicino">
+      <Number>6</Number>
+      <Street>Piazza della Trinità dei Monti</Street>
+      <City>Rome</City>
+      <State>Lazio</State>
+      <Zip>00187</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.9">
+    <Name>Copacabana Palace</Name>
+    <Phone>+55 21 2548 7070</Phone>
+    <Address NearstAirport="Rio Galeão Airport">
+      <Number>1702</Number>
+      <Street>Avenida Atlântica</Street>
+      <City>Rio de Janeiro</City>
+      <State>RJ</State>
+      <Zip>22021-001</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Mandarin Oriental Bangkok</Name>
+    <Phone>+66 2 659 9000</Phone>
+    <Phone>+66 2 659 9090</Phone>
+    <Address NearstAirport="Suvarnabhumi Airport">
+      <Number>48</Number>
+      <Street>Oriental Avenue</Street>
+      <City>Bangkok</City>
+      <State>Bangkok</State>
+      <Zip>10500</Zip>
+    </Address>
+  </Hotel>
+
 </Hotels>
