@@ -5,7 +5,7 @@
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Habor">
+    <Address NearstAirport="Sky Habor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -14,7 +14,7 @@
     </Address>
   </Hotel>
   
-  <!-- Hotel 2: Missing required attribute (NearestAirport removed from Address) -->
+  <!-- Hotel 2: Missing required attribute (NearstAirport removed from Address) -->
   <Hotel Rating="4.5">
     <Name>Marriott Marquis San Diego</Name>
     <Phone>619-292-2000</Phone>
@@ -31,7 +31,7 @@
   <Hotel>
     <Name>Hilton Paris Opera</Name>
     <!-- No Phone element provided -->
-    <Address NearestAirport="Charles de Gaulle">
+    <Address NearstAirport="Charles de Gaulle">
       <Number>108</Number>
       <Street>Rue Auber</Street>
       <City>Paris</City>
@@ -44,7 +44,7 @@
   <Hotel Rating="4.8">
     <Name>InterContinental London Park Lane</Name>
     <Phone>+44 20 7736 1000</Phone>
-    <Address NearestAirport="Heathrow">
+    <Address NearstAirport="Heathrow">
       <Number>200</Number>
       <Street>Park Lane</Street>
       <City>London</City>
@@ -58,7 +58,7 @@
     <Name>The Peninsula Hong Kong</Name>
     <Name>Peninsula Hong Kong Duplicate</Name>
     <Phone>+852 2233 8888</Phone>
-    <Address NearestAirport="Hong Kong International Airport">
+    <Address NearstAirport="Hong Kong International Airport">
       <Number>8</Number>
       <Street>City Road Central</Street>
       <City>Hong Kong</City>
