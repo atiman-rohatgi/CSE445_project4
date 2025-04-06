@@ -1,69 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Hotel>
-  <!-- Hotel 1: Valid entry -->
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Hotel 1: Valid format -->
   <Hotel Rating="4.2">
-    <Name>Westin Tempe</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Habor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
+    <Name>Marina Bay Sands</Name>
+    <Phone>+65 6688 8868</Phone>
+    <Phone>+65 6688 6888</Phone>
+    <Address NearstAirport="Changi Airport">
+      <Number>10</Number>
+      <Street>Bayfront Ave</Street>
+      <City>Singapore</City>
+      <State>Central</State>
+      <Zip>018956</Zip>
     </Address>
   </Hotel>
-  
-  <!-- Hotel 2: Missing required attribute (NearstAirport removed from Address) -->
+
+  <!-- Hotel 2: Missing required attribute (NearstAirport) -->
   <Hotel Rating="4.5">
-    <Name>Marriott Marquis San Diego</Name>
-    <Phone>619-292-2000</Phone>
+    <Name>The Langham</Name>
+    <Phone>+44 20 7636 1000</Phone>
     <Address>
-      <Number>333</Number>
-      <Street>Pacific Highway</Street>
-      <City>San Diego</City>
-      <State>CA</State>
-      <Zip>92101</Zip>
-    </Address>
-  </Hotel>
-  
-  <!-- Hotel 3: Missing Phone element -->
-  <Hotel>
-    <Name>Hilton Paris Opera</Name>
-    <!-- No Phone element provided -->
-    <Address NearstAirport="Charles de Gaulle">
-      <Number>108</Number>
-      <Street>Rue Auber</Street>
-      <City>Paris</City>
-      <State>Ile-de-France</State>
-      <Zip>75009</Zip>
-    </Address>
-  </Hotel>
-  
-  <!-- Hotel 4: Address element missing closing tag -->
-  <Hotel Rating="4.8">
-    <Name>InterContinental London Park Lane</Name>
-    <Phone>+44 20 7736 1000</Phone>
-    <Address NearstAirport="Heathrow">
-      <Number>200</Number>
-      <Street>Park Lane</Street>
+      <Number>1</Number>
+      <Street>Portland Pl</Street>
       <City>London</City>
       <State>England</State>
-      <Zip>W1J 7QY</Zip>
-    <!-- Missing </Address> tag here -->
-  </Hotel>
-  
-  <!-- Hotel 5: Two Name elements provided -->
-  <Hotel Rating="4.7">
-    <Name>The Peninsula Hong Kong</Name>
-    <Name>Peninsula Hong Kong Duplicate</Name>
-    <Phone>+852 2233 8888</Phone>
-    <Address NearstAirport="Hong Kong International Airport">
-      <Number>8</Number>
-      <Street>City Road Central</Street>
-      <City>Hong Kong</City>
-      <State>Kowloon</State>
-      <Zip>00000</Zip>
+      <Zip>W1B 1JA</Zip>
     </Address>
   </Hotel>
+
+  <!-- Hotel 3: Missing Phone element -->
+  <Hotel>
+    <Name>Four Seasons Paris</Name>
+    <Address NearstAirport="Charles de Gaulle">
+      <Number>31</Number>
+      <Street>Avenue George V</Street>
+      <City>Paris</City>
+      <State>Ile-de-France</State>
+      <Zip>75008</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Hotel 4: Address tag is not closed -->
+  <Hotel Rating="4.0">
+    <Name>Park Hyatt Tokyo</Name>
+    <Phone>+81 3-5322-1234</Phone>
+    <Address NearstAirport="Narita Airport">
+      <Number>3-7-1</Number>
+      <Street>Nishi-Shinjuku</Street>
+      <City>Tokyo</City>
+      <State>Tokyo</State>
+      <Zip>163-1055</Zip>
+    <!-- Missing </Address> here -->
+  </Hotel>
+
+  <!-- Hotel 5: Duplicate Name tags -->
+  <Hotel>
+    <Name>Shangri-La Sydney</Name>
+    <Name>Shangri-La Duplicate</Name>
+    <Phone>+61 2 9250 6000</Phone>
+    <Address NearstAirport="Sydney Kingsford Smith">
+      <Number>176</Number>
+      <Street>Cumberland St</Street>
+      <City>Sydney</City>
+      <State>NSW</State>
+      <Zip>2000</Zip>
+    </Address>
+  </Hotel>
+
 </Hotel>
