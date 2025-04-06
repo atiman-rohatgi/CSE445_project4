@@ -4,7 +4,7 @@
     <Name>Westin Tempe</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Habor">
+    <Address NearstAirport="Sky Habor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -16,7 +16,7 @@
   <Hotel Rating="4.5">
     <Name>Marriott Marquis San Diego</Name>
     <Phone>619-292-2000</Phone>
-    <Address NearestAirport="San Diego International Airport">
+    <Address NearstAirport="San Diego International Airport">
       <Number>333</Number>
       <Street>Pacific Highway</Street>
       <City>San Diego</City>
@@ -28,7 +28,7 @@
   <Hotel>
     <Name>Hilton Paris Opera</Name>
     <Phone>+33 1 42 98 80 00</Phone>
-    <Address NearestAirport="Charles de Gaulle">
+    <Address NearstAirport="Charles de Gaulle">
       <Number>108</Number>
       <Street>Rue Auber</Street>
       <City>Paris</City>
@@ -40,7 +40,7 @@
   <Hotel Rating="4.8">
     <Name>InterContinental London Park Lane</Name>
     <Phone>+44 20 7736 1000</Phone>
-    <Address NearestAirport="Heathrow">
+    <Address NearstAirport="Heathrow">
       <Number>200</Number>
       <Street>Park Lane</Street>
       <City>London</City>
@@ -52,7 +52,7 @@
   <Hotel Rating="4.7">
     <Name>The Peninsula Hong Kong</Name>
     <Phone>+852 2233 8888</Phone>
-    <Address NearestAirport="Hong Kong International Airport">
+    <Address NearstAirport="Hong Kong International Airport">
       <Number>8</Number>
       <Street>City Road Central</Street>
       <City>Hong Kong</City>
@@ -65,7 +65,7 @@
     <Name>Ritz-Carlton Tokyo</Name>
     <Phone>+81 3-3423-8000</Phone>
     <Phone>+81 3-3423-8001</Phone>
-    <Address NearestAirport="Narita International Airport">
+    <Address NearstAirport="Narita International Airport">
       <Number>1</Number>
       <Street>Tokyo Tower</Street>
       <City>Tokyo</City>
@@ -77,7 +77,7 @@
   <Hotel Rating="4.3">
     <Name>Mandarin Oriental, Bangkok</Name>
     <Phone>+66 2 659 9000</Phone>
-    <Address NearestAirport="Suvarnabhumi Airport">
+    <Address NearstAirport="Suvarnabhumi Airport">
       <Number>48</Number>
       <Street>Convent Road</Street>
       <City>Bangkok</City>
@@ -89,7 +89,7 @@
   <Hotel Rating="4.6">
     <Name>Hotel Sacher Vienna</Name>
     <Phone>+43 1 71338</Phone>
-    <Address NearestAirport="Vienna International Airport">
+    <Address NearstAirport="Vienna International Airport">
       <Number>4</Number>
       <Street>Philharmonikerstrasse</Street>
       <City>Vienna</City>
@@ -97,11 +97,11 @@
       <Zip>1010</Zip>
     </Address>
   </Hotel>
-  
+
   <Hotel>
     <Name>Burj Al Arab</Name>
     <Phone>+971 4 301 7777</Phone>
-    <Address NearestAirport="Dubai International Airport">
+    <Address NearstAirport="Dubai International Airport">
       <Number>1</Number>
       <Street>Jumeirah St</Street>
       <City>Dubai</City>
@@ -113,7 +113,7 @@
   <Hotel Rating="4.1">
     <Name>The Oberoi Udaivilas</Name>
     <Phone>+91 7461 231234</Phone>
-    <Address NearestAirport="Sardar Vallabhbhai Patel International Airport">
+    <Address NearstAirport="Sardar Vallabhbhai Patel International Airport">
       <Number>1</Number>
       <Street>Lake Pichola Road</Street>
       <City>Udaipur</City>
